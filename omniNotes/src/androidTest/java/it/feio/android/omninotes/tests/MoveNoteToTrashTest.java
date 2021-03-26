@@ -43,7 +43,7 @@ public class MoveNoteToTrashTest extends TestBase {
         onView(withText("Trash")).perform(click());
         Thread.sleep(2000);
     }
-
+/*
     @Test
     public void RestoreNoteFromTrash() {
         noteDetailsScreen.selectNoteWithSpecificText(noteTitle);
@@ -73,5 +73,5 @@ public class MoveNoteToTrashTest extends TestBase {
             }
         };
     }
-
+*/
 }
